@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Test";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Hello Sumon</h2>
+<h1>@ViewBag.Info</h1>
+@{
+    var number = 3;
+    if (number < 5)
+    {
+        <h1>Good, total marks @number</h1>
+    }
+    else
+    {
+        <h2>Bad, total marks @number</h2> 
+    }
+}
+

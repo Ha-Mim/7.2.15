@@ -1,0 +1,22 @@
+﻿@model dynamic
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section mycss
+{
+    <style>
+        h2 {
+            color: blueviolet;
+            font-weight: bold;
+        }
+    </style>
+}
+@section scripts
+{
+    <script>
+        alert("Hello Ha-Mim");
+    </script>
+}
+<h2>title</h2>
